@@ -1,0 +1,10 @@
+{
+  "name": "slurm-mon",
+  "homepage": "sivvp-mon.saske.sk",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "*",
+    "bootstrap": "*"
+  }
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="hlApp">
+<html lang="en" ng-app="slurmMonApp">
 <head>
 <meta charset="utf8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +12,9 @@
 <link rel="stylesheet" href="stylesheets/style.css">
 
 </head>
-<body>
-	<h1>Welcome to SLURM monitor</h1>
-	<form>
-		Name:<input></input>
-	</form>
+<body ng-controller='slurmControler'>
+	<h1>Welcome {{ name }} to SLURM monitor</h1>
+	<input type="text" ng-model="name"/>
 </body>
 
 <script src="/socket.io/socket.io.js"></script>
